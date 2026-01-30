@@ -2181,6 +2181,7 @@ footer::before {
   font-weight: 700;
   margin-bottom: 10px;
   letter-spacing: -0.3px;
+  color: white;
 }
 
 .articles-hero__content p {
@@ -2188,6 +2189,7 @@ footer::before {
   opacity: 0.9;
   max-width: 600px;
   line-height: 1.6;
+  color: #e0e7ff;
 }
 
 /* Responsive */

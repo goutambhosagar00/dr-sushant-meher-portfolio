@@ -13,7 +13,7 @@ const Hero = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <img src={heroImg} alt="Dr. Sushant Meher" />
+          <img src={sirPhoto} alt="Dr. Sushant Meher" />
         </motion.div>
 
         {/* Content */}
