@@ -12,20 +12,24 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Layout>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/education" element={<Education />} />
-          <Route path="/research-5g" element={<Research5G />} />
-          <Route path="/publications" element={<Publications />} />
-          <Route path="/articles" element={<Articles />} />
-          <Route path="/articles/:slug" element={<ArticleDetail />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </Layout>
-    </BrowserRouter>
+   <BrowserRouter>
+  <Layout>
+    <Routes>
+      {/* ✅ HOME */}
+      <Route index element={<Home />} />
+
+      {/* OTHER PAGES */}
+      <Route path="about" element={<About />} />
+      <Route path="education" element={<Education />} />
+      <Route path="research-5g" element={<Research5G />} />
+      <Route path="publications" element={<Publications />} />
+      <Route path="articles" element={<Articles />} />
+      <Route path="articles/:slug" element={<ArticleDetail />} />
+      <Route path="contact" element={<Contact />} />
+    </Routes>
+  </Layout>
+</BrowserRouter>
+
   );
 }
 
