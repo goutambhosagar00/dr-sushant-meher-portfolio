@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import sirPhoto from "../assets/images/Sir.jpg";
+import heroImg from "../assets/images/Sir.jpg";
+
 
 
 const Hero = () => {
@@ -13,7 +14,7 @@ const Hero = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <img src={sirPhoto} alt="Dr. Sushant Meher" />
+          <img src={heroImg} alt="Dr. Sushant Meher" />
         </motion.div>
 
         {/* Content */}
