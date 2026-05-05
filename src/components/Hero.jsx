@@ -14,7 +14,7 @@ const Hero = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <img src={heroImg} alt="Dr. Sushant Meher" />
+          <img src={heroImg} alt=". Sushant Meher" />
         </motion.div>
 
         {/* Content */}
@@ -24,7 +24,7 @@ const Hero = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <h1>Dr. Sushant Meher</h1>
+          <h1>Sushant Meher</h1>
           <h3>Assistant Professor</h3>
 
           <p className="dept">
