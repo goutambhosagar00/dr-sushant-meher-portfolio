@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <header className="site-header">
       <div className="header-container">
-        <h1 className="site-title">Dr. Sushant Meher</h1>
+        <h1 className="site-title">Sushant Meher</h1>
 
         <nav className={`site-nav ${open ? "open" : ""}`}>
           <Link to="/" onClick={() => setOpen(false)}>Home</Link>
